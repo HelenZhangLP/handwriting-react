@@ -1,0 +1,41 @@
+
+.tab-item {
+  padding: 5px 10px;
+  border: solid 1px #cdcdcd;
+  margin-right: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #efefef;
+}
+
+.ul-wrap {
+  width: 60px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.ul-wrap li {
+  display: block;
+}
+
+.counter {
+  height: 30px;
+  display: flex;
+}
+
+.counter span,
+.counter div
+.btn{
+  width: 60px;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.counter div,
+.btn {
+  background-color: #ddf;
+}
